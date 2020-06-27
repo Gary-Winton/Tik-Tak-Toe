@@ -1,9 +1,28 @@
 
-const ttt = [
+const ttt = [ //draws
     ["X", "O", "X"],
     ["X", "X", "O"],
     ["O", "X", "O"] 
   ];
+
+  const ttt = [ //not started
+    ["X", "O", "X"],
+    ["X", "X", "O"],
+    ["O", "X", "O"] 
+  ];
+
+  const ttt = [ // x wins
+    ["X", "O", "X"],
+    ["X", "X", "O"],
+    ["O", "X", "O"] 
+  ];
+
+  const ttt = [ // o wins
+    ["X", "O", "X"],
+    ["X", "X", "O"],
+    ["O", "X", "O"] 
+  ];
+
 
   const ifEmpty = function() {
     if ((ttt[0][0]=== "E" && ttt[0][1]=== "E" && ttt[0][2]=== "E"  )&&
