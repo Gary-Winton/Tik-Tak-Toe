@@ -6,19 +6,19 @@ const ttt = [ //draws
   ];
 
   const ttt = [ //not started
-    ["X", "O", "X"],
-    ["X", "X", "O"],
-    ["O", "X", "O"] 
+    ["E", "E", "E"],
+    ["E", "E", "E"],
+    ["E", "E", "E"] 
   ];
 
-  const ttt = [ // x wins
+  const ttt = [ // x wins diagonally
     ["X", "O", "X"],
-    ["X", "X", "O"],
-    ["O", "X", "O"] 
+    ["0", "X", "O"],
+    ["O", "X", "X"] 
   ];
 
   const ttt = [ // o wins
-    ["X", "O", "X"],
+    ["X", "O", "O"],
     ["X", "X", "O"],
     ["O", "X", "O"] 
   ];
